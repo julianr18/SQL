@@ -17,6 +17,7 @@ INSERT INTO store VALUES
 (14, 'the north face', 4, 16, 7),
 (15, 'levi', 5, 17, 8)
 ;
+
 --Displays the info of most expensive to least expensive brand.
 SELECT brand, cost FROM store ORDER BY cost desc;
 
