@@ -9,7 +9,6 @@ CREATE TABLE topmovies(
    OverseasPct REAL,
    Year        INTEGER
 );
-
 INSERT INTO topmovies(Rank,Title,Studio,Worldwide,Domestic,DomesticPct,Overseas,OverseasPct,Year) VALUES (1,'Avatar','Fox',2788.00,760.50,0.27,2027.50,0.73,2009);
 INSERT INTO topmovies(Rank,Title,Studio,Worldwide,Domestic,DomesticPct,Overseas,OverseasPct,Year) VALUES (2,'Titanic','Par.',2186.80,658.70,0.30,1528.10,0.70,1997);
 INSERT INTO topmovies(Rank,Title,Studio,Worldwide,Domestic,DomesticPct,Overseas,OverseasPct,Year) VALUES (3,'Marvel''s The Avengers','BV',1518.60,623.40,0.41,895.20,0.59,2012);
